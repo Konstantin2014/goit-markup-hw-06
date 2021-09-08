@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>Document</title>
+</head>
+<body>
+   <script src="./Js/modal.js"></script>
+    
+   <form class="form">
+      <div class="form-field">
+         <label for="name">Имя</label>
+         <input type="text" name="name" id="name" placeholder="Иван Иваныч" autofocus/> 
+      </div>
+      <div class="form-field">
+         <label for="tel">Телефон</label>
+         <input type="tel" name="tel" id="tel"/> 
+      </div>
+      <div class="form-field">
+         <label for="mail">Почта</label>
+         <input type="email" name="mail" id="mail" />
+      </div>
+
+   <div role="group">
+      <label for="html">HTML</label>
+      <input type="checkbox" name="topik" value="HTML" id="html"/>
+      
+      <label for="css">CSS</label>
+      <input type="checkbox" name="topik" value="CSS" id="css"/>
+      
+      <label for="js">JS</label>
+      <input type="checkbox" name="topik" value="JS" id="js"/>
+   </div>
+   
+   <div role="group">
+   <input type="radio" name="expirience" value="junior" id="junior">
+      <label for="junior">junior</label>
+      <input type="radio" name="expirience" value="midl" id="midl">
+      <label for="midl">midl</label>
+      <input type="radio" name="expirience" value="sinor" id="sinor">
+      <label for="sinor">sinor</label>
+   </div> 
+
+   <input type="datetime-local" name="data" id="data"/>
+   <label for="data">Дата локации</label> 
+
+   <label for="coment">Оставьте комментарий</label>
+   <textarea name="coment" id="coment" rows="10"></textarea> 
+  
+   <label for="policy">На все согласен</label>
+   <input type="checkbox" name="policy" id="policy">  
+
+   
+   <button type="submit">Оставить заявку</button>
+   
+   </form>
+
+
+   
+
+   
+</body>
+</html>
+
+
+
