@@ -739,9 +739,10 @@ a{
    visibility: hidden;
    pointer-events: none;
 }
-.modal-form-field.coment{
-   margin-top: 20px;
+.modal-form-field.coment{  
    margin-bottom: 30px;
+   margin-top: 20px;
+ 
   
 }
 .modal-form-field{
@@ -842,15 +843,19 @@ a{
    color: var(--accent-color);
 }
 
-.checkbox{   
-   position: relative;
+.checkbox.is-hidden{   
+   /* position: relative;
    width: 1px;
    height: 1px;
    margin: -1px;
    border: 0;
    padding: 0;
    clip: rect(0 0 0 0);
-   overflow: hidden;
+   overflow: hidden; */
+   position: absolute;
+   appearance: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
 }
 
 
