@@ -464,7 +464,7 @@ a{
 
 .client-link:hover .clients-icon,
 .client-link:focus .clients-icon{
-    fill: var(--accent-color);
+   fill: var(--accent-color);
 }
 
 
@@ -557,7 +557,6 @@ a{
    margin-bottom: 20px;
 }
 .footer-mail{ 
- 
    margin-left: 93px;
 
 }
