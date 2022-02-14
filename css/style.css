@@ -42,7 +42,6 @@ a{
    text-decoration: none;
 }
 
-
 /* стилизация header */
 
 .container{   
@@ -312,7 +311,6 @@ a{
 	background: rgba(47, 48, 58, 0.8);
 	color: var(--white-color)
 	
-
 }
 .doing-inage:not(:last-child){
    margin-right: 30px;
@@ -412,8 +410,6 @@ a{
    background-color: var(--accent-color);
 } 
 
-
-
 /* наши клиенты */
 .ourclients{
    padding-top: 94px;
@@ -466,8 +462,6 @@ a{
 .client-link:focus .clients-icon{
    fill: var(--accent-color);
 }
-
-
 
 /* стилизация footer */
 .footer{    
@@ -619,6 +613,7 @@ a{
    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .button-portfolio:hover,
 .button-portfolio:focus{   
    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -626,21 +621,23 @@ a{
    color: var(--white-color);   
 }
 
-
 .image-portfolio{
    display: flex;
    flex-wrap: wrap;
    margin-top: -30px;
    margin-left: -30px;  
 }
+
 .image-portfolio .item-portfolio {
    margin-left: 30px;
    margin-top: 30px; 
 } 
+
 .card-thumb{
    position: relative;
    overflow: hidden;
 }
+
 .top-text{
    position: absolute;
    top: 0;
@@ -662,9 +659,11 @@ a{
    border-bottom: 1px solid #EEEEEE;
    border-left: 1px solid #EEEEEE;
 }
+
 .link-portfilio{
    display: block;
 } 
+
 .link-portfilio:hover .top-text,
 .link-portfilio:focus .top-text{
    transform: translateY(0%);  
@@ -674,22 +673,26 @@ a{
 .link-portfilio:focus{
    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 .portfolio{
    padding-top: 94px;
    padding-bottom: 94px;
 }
+
 .portfolio-title{   
    color: var(--title-text-color);   
    font-size: 18px;
    line-height: 2;
    letter-spacing: 0.06em;
 }
+
 .portfolio-text{
    color: var(--title-text-color);
    margin-top: 4px;  
    font-size: 16px;
    line-height: 1.86;
 }
+
 .backdrop{
    position: fixed;
    height: 100vh;
@@ -699,6 +702,7 @@ a{
    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
 	visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal{
    padding: 40px;
    position: absolute;
@@ -741,12 +745,10 @@ a{
 .modal-form-field.coment{  
    margin-bottom: 30px;
    margin-top: 20px;
- 
-  
+      
 }
 .modal-form-field{
    margin-bottom: 10px;
-  
 }
 
 .modal-title{  
@@ -757,6 +759,7 @@ a{
    color: var(--title-text-color);
    margin-bottom: 12px;
 } 
+
 .modal-form-input{  
    width: 448px;
    height: 40px;
@@ -775,6 +778,7 @@ a{
    color: var(--text-color);
    display: block;   
 }
+
 .modal-form-icon{
    position: absolute;
    width: 15px;
@@ -842,27 +846,18 @@ a{
    color: var(--accent-color);
 }
 
-.checkbox.is-hidden{   
-   /* position: relative;
-   width: 1px;
-   height: 1px;
-   margin: -1px;
-   border: 0;
-   padding: 0;
-   clip: rect(0 0 0 0);
-   overflow: hidden; */
+.checkbox.is-hidden{ 
    position: absolute;
    appearance: none;
    -webkit-appearance: none;
    -moz-appearance: none;
 }
 
-
 .checkbox:checked + .check-lable > .icon-dogovor {
 	background: var(--accent-color);
    border: none;
-
 }
+
 .button.mod{  
    font-size: 16px;
    line-height: 1.88;
@@ -881,8 +876,8 @@ a{
 .modal-form-input:focus,
 .modal-form-input:hover{
    border: 1px solid var(--accent-color);
-  
 }
+
 .modal-form-input:focus  ~ .modal-form-icon,
 .modal-form-input:hover  ~ .modal-form-icon{
    fill: var(--accent-color)
